@@ -10,6 +10,7 @@ import 'slick-carousel/slick/slick-theme.css';
 const Trending = () => {
 
     const [post, setpost] = useState([]);
+    const [trend, settrend] = useState([]);
 
 
     const settings = {
@@ -31,6 +32,18 @@ const Trending = () => {
             })
     }, [])
 
+    //Call API: /trending
+    useEffect(() => {
+        fetch('http://localhost:9999/trending')
+            .then(resp => resp.json())
+            .then(data => {
+                settrend(data);
+            })
+            .catch(err => {
+                console.log(err);
+            })
+    }, [])
+
 
 
     return (
@@ -43,25 +56,34 @@ const Trending = () => {
 
             <Row>
                 {
-                    post.map(p => (
+                    trend.map(tn => {
+                        const pst = post.find(p => p.post_id === tn.post_id);
+                        const img = pst ? pst.img : '';
+                        const title = pst ? pst.title : '';
+                        const body = pst ? pst.body : '';
+                        const date = pst ? pst.date : '';
+                        const author = pst ? pst.author : '';
 
-                        <Col lg={6} className="card-wrapper">
-                            <Card className="custom-card" style={{ marginTop: '20px' }} key={p.post_id}>
-                                <Card.Img variant="top" src={p.img} />
-                                <Card.Body>
-                                    <Card.Title>
-                                        {p.title}
-                                    </Card.Title>
-                                    <Card.Text className="text">
-                                        {p.body.length > 50 ? `${p.body.substring(0, 50)}...` : p.body}
-                                    </Card.Text>
-                                    <p className="incard-fontsize"><FontAwesomeIcon icon={faCalendarDays} style={{ color: "#737882", }} /> {p.date} by {p.author}</p>
-                                </Card.Body>
-                            </Card>
-                        </Col>
+                        return (
 
-                    ))
-                }
+
+                            <Col lg={6} className="card-wrapper">
+                                <Card className="custom-card" style={{ marginTop: '20px' }} key={tn.post_id}>
+                                    <Card.Img variant="top" src={img} />
+                                    <Card.Body>
+                                        <Card.Title>
+                                            {title}
+                                        </Card.Title>
+                                        <Card.Text className="text">
+                                            {body.length > 50 ? `${body.substring(0, 50)}...` : body}
+                                        </Card.Text>
+                                        <p className="incard-fontsize"><FontAwesomeIcon icon={faCalendarDays} style={{ color: "#737882", }} /> {date} by {author}</p>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+
+                        );
+                    })}
 
             </Row >
 

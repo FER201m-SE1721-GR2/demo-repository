@@ -2,7 +2,7 @@ import { Container, Carousel, Row, Col, Image } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import Trending from "./Trending";
 import Community from "./LPSide";
-import News from "./News";
+import News from "../News";
 
 
 const Home = () => {
@@ -75,12 +75,6 @@ const Home = () => {
                     <Community />
                 </Col>
             </Row>
-            <Row>
-                <Col lg={9}>
-                    <News />
-                </Col>
-            </Row>
-
         </Container >
     );
 }

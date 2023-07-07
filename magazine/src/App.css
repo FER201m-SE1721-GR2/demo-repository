@@ -90,6 +90,23 @@
 
 }
 
+.custom-pagination{
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.custom-pagination ul li a{
+  color: white;
+  background-color: #000;
+}
+
+.custom-pagination ul li a:hover{
+  background-color: #aca8a8;
+  border-bottom: 3px solid rgb(83, 76, 76);
+  color:rgb(0, 0, 0);
+}
+
 /*---------community------------- */
 .community .heading h6 {
   font-weight: 400;
