@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faNewspaper, faCalendarDays } from '@fortawesome/free-solid-svg-icons';
-import { Card, Col, Container, Image, Row } from 'react-bootstrap';
+import { Card, Col, Container, Image, Pagination, Row } from 'react-bootstrap';
 import { useState, useEffect } from "react";
 
 
@@ -10,7 +10,13 @@ const News = () => {
 
     const [post, setpost] = useState([]);
     const [news, setnews] = useState([]);
-
+    const [currentPage, setCurrentPage] = useState(1);
+    const recordsPerPage = 4;
+    const lastIndex = currentPage * recordsPerPage;
+    const fistIndex = lastIndex - recordsPerPage;
+    const records = news.slice(fistIndex, lastIndex);
+    const npage = Math.ceil(news.length / recordsPerPage);
+    const numbers = [...Array(npage + 1).keys()].slice(1);
 
     //Call API: /posts
     useEffect(() => {
@@ -46,7 +52,7 @@ const News = () => {
 
                 <Container>
                     {
-                        news.map(n => {
+                        records.map(n => {
                             const pst = post.find(p => p.post_id === n.post_id);
                             const img = pst ? pst.img : '';
                             const title = pst ? pst.title : '';
@@ -55,9 +61,9 @@ const News = () => {
                             const author = pst ? pst.author : '';
 
                             return (
-                                <Row className="card-wrapper" key={n.news_id} style={{padding:'10px 0 10px 0'}}>
+                                <Row className="card-wrapper" key={n.news_id} style={{ padding: '10px 0 10px 0' }}>
                                     <Card>
-                                        <Row style={{padding:'10px 0 10px 0'}}>
+                                        <Row style={{ padding: '10px 0 10px 0' }}>
                                             <Col xs={3} md={3} lg={3}>
                                                 <Card.Img className='news-img' src={img} alt='' />
                                             </Col>
@@ -81,9 +87,43 @@ const News = () => {
                             );
                         })}
                 </Container>
+                <Row className="custom-pagination">
+                    <ul className='pagination'>
+                        <li className='page-item'>
+                            <a href='#' className='page-link' onClick={prePage}>Prev</a>
+                        </li>
+                        {
+                            numbers.map((n, i) => (
+                                <li className={`page-item ${currentPage === n ? 'active' : ''}`} key={i}>
+                                    <a href='#' className='page-link' onClick={() => changeCPage(n)}>{n}</a>
+
+                                </li>
+                            ))
+                        }
+                        <li className='page-item'>
+                            <a href='#' className='page-link' onClick={nextPage}>Next</a>
+                        </li>
+                    </ul>
+                </Row>
             </section>
         </>
     );
+    function prePage() {
+        if (currentPage !== 1) {
+            setCurrentPage(currentPage - 1)
+        }
+    }
+
+    function changeCPage(id) {
+        setCurrentPage(id)
+    }
+
+    function nextPage() {
+        if (currentPage !== npage) {
+            setCurrentPage(currentPage + 1)
+        }
+
+    }
 }
 
 export default News;

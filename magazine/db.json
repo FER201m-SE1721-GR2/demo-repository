@@ -78,12 +78,28 @@
       "date": "23/08/2023",
       "author": "Admin",
       "title": "Temtem Showdown Is A Free Standalone Battle-Focused Game And It's Out Now",
-      "body":"Publisher Humble Games and developer Crema have revealed Temtem Showdown, a new standalone battle-focused game, and it's out right now.This surprise reveal comes less than a year after the full 1.0 release of Temtem, the game that Showdown is based on. Similar to Pokemon Showdown, Temtem Showdown is all about battling. It's also free to everyone. ",
-      "img":"https://www.gameinformer.com/sites/default/files/styles/full/public/2023/06/23/2df24c19/temtem_showdown_header.jpg"
+      "body": "Publisher Humble Games and developer Crema have revealed Temtem Showdown, a new standalone battle-focused game, and it's out right now.This surprise reveal comes less than a year after the full 1.0 release of Temtem, the game that Showdown is based on. Similar to Pokemon Showdown, Temtem Showdown is all about battling. It's also free to everyone. ",
+      "img": "https://www.gameinformer.com/sites/default/files/styles/full/public/2023/06/23/2df24c19/temtem_showdown_header.jpg"
+    },
+    {
+      "post_id": 10,
+      "category_id": "2",
+      "date": "24/08/2023",
+      "author": "Admin",
+      "title": "Diablo IV’s Season Of The Malignant Kicks Off July 20",
+      "body" : "Diablo IV’s first season kicks off on July 20, and it’s called Season of the Malignant. Blizzard revealed a new trailer along with details of the content update in a livestream today.Season of the Malignant introduces a new questline set after the main campaign in which Malignant Monsters, born from Lilith’s corruption, are terrorizing Sanctuary. It’s up to you and a former priest named Cormond to locate and eradicate the source of this blight. ",
+      "img": "https://www.gameinformer.com/sites/default/files/styles/full/public/2023/07/06/133d05d0/diablo_iv_season_of_the_malignant_crop.jpg"
+    },
+    {
+      "post_id": 11,
+      "category_id": "2",
+      "date": "24/08/2023",
+      "author": "Wesley LeBlanc",
+      "title": "NetherRealm Reveals Smoke And Rain For Mortal Kombat 1 Fighter Roster",
+      "body" : "NetherRealm has revealed two more playable fighters joining the Mortal Kombat 1 roster: Smoke and Rain.These two returning characters were revealed as actual fighters on the roster – they still could be part of the Kameo roster, however – in a new gameplay trailer released today focused on the Lin Kuei faction. In it, we witness Scorpion and Sub-Zero's further attempts to establish this faction in Liu Kang's newly rebooted Mortal Kombat universe (hence the Mortal Kombat 1 title), where Smoke and Rain come into play. ",
+      "img": "https://www.gameinformer.com/sites/default/files/styles/full/public/2023/07/06/5b3d67df/mortal_kombat_header_3.jpg"
     }
-
   ],
-
   "carousel": [
     {
       "carousel_id": 1,
@@ -98,7 +114,32 @@
       "post_id": 3
     }
   ],
-
+  "trending": [
+    {
+      "trend_id": 1,
+      "post_id": 1
+    },
+    {
+      "trend_id": 2,
+      "post_id": 2
+    },
+    {
+      "trend_id": 3,
+      "post_id": 3
+    },
+    {
+      "trend_id": 4,
+      "post_id": 4
+    },
+    {
+      "trend_id": 5,
+      "post_id": 6
+    },
+    {
+      "trend_id": 6,
+      "post_id": 9
+    }
+  ],
   "news": [
     {
       "news_id": 1,
@@ -114,7 +155,36 @@
     },
     {
       "news_id": 4,
+      "post_id": 4
+    },
+    {
+      "news_id": 5,
+      "post_id": 6
+    },
+    {
+      "news_id": 6,
+      "post_id": 8
+    },
+    {
+      "news_id": 7,
       "post_id": 9
+    },
+    {
+      "news_id": 8,
+      "post_id": 10
+    },
+    {
+      "news_id": 9,
+      "post_id": 5
+    },
+    {
+      "news_id": 10,
+      "post_id": 7
+    },
+    {
+      "news_id": 11,
+      "post_id": 11
     }
+
   ]
 }
