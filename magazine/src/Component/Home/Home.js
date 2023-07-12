@@ -2,7 +2,7 @@ import { Container, Carousel, Row, Col, Image } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import Trending from "./Trending";
 import Community from "./LPSide";
-import News from "../News";
+import News from "./News";
 
 
 const Home = () => {
@@ -45,7 +45,7 @@ const Home = () => {
                         {
                             carousel.map(ca => {
                                 const pst = post.find(p => p.post_id === ca.post_id);
-                                const img = pst ? pst.img : '';
+                                const thumbnail = pst ? pst.thumbnail : '';
                                 const title = pst ? pst.title:'';
                                 const body = pst ? pst.body:'';
 
@@ -53,7 +53,7 @@ const Home = () => {
                                     <Carousel.Item key={ca.carousel_id}>
                                         <Image
                                             className="d-block w-100"
-                                            src={img}
+                                            src={thumbnail}
                                             alt="First slide"
                                         />
                                         <Carousel.Caption>

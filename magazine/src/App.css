@@ -22,22 +22,37 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 120%;
-  border-bottom: 3px solid transparent;
+ 
 }
 
 .header-app a:hover:not(.special){
-  background-color: #aca8a8;
+  background-color: #c5bbbb;
   border-bottom: 3px solid rgb(83, 76, 76);
   color:rgb(0, 0, 0);
+  text-decoration: none !important;
 }
 
-.header-app a .link-active {
-  background-color: orange;
+.link-active {
+  background-color: rgb(177, 177, 177);
   color: rgb(243, 141, 141);
   font-weight: bold;
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid rgb(41, 91, 132);
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+
+
+.profileBox {
+  display: none;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.category-item a{
+  font-size: 14px;
+  text-decoration: none !important;
 }
 
 .heading {

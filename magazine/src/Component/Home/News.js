@@ -46,15 +46,14 @@ const News = () => {
     return (
         <>
             <section className='news'>
-                <div className="heading">
-                    <h6>News &nbsp; <FontAwesomeIcon icon={faNewspaper} style={{ color: "#ededed", }} /></h6>
-                </div>
-
                 <Container>
+                    <div className="heading">
+                        <h6>News &nbsp; <FontAwesomeIcon icon={faNewspaper} style={{ color: "#ededed", }} /></h6>
+                    </div>
                     {
                         records.map(n => {
                             const pst = post.find(p => p.post_id === n.post_id);
-                            const img = pst ? pst.img : '';
+                            const thumbnail = pst ? pst.thumbnail : '';
                             const title = pst ? pst.title : '';
                             const body = pst ? pst.body : '';
                             const date = pst ? pst.date : '';
@@ -65,7 +64,7 @@ const News = () => {
                                     <Card>
                                         <Row style={{ padding: '10px 0 10px 0' }}>
                                             <Col xs={3} md={3} lg={3}>
-                                                <Card.Img className='news-img' src={img} alt='' />
+                                                <Card.Img className='news-img' src={thumbnail} alt='' />
                                             </Col>
                                             <Col xs={9} md={9} lg={9}>
                                                 <Row>
@@ -90,18 +89,18 @@ const News = () => {
                 <Row className="custom-pagination">
                     <ul className='pagination'>
                         <li className='page-item'>
-                            <a href='#' className='page-link' onClick={prePage}>Prev</a>
+                            <a className='page-link' onClick={prePage}>Prev</a>
                         </li>
                         {
                             numbers.map((n, i) => (
                                 <li className={`page-item ${currentPage === n ? 'active' : ''}`} key={i}>
-                                    <a href='#' className='page-link' onClick={() => changeCPage(n)}>{n}</a>
+                                    <a className='page-link' onClick={() => changeCPage(n)}>{n}</a>
 
                                 </li>
                             ))
                         }
                         <li className='page-item'>
-                            <a href='#' className='page-link' onClick={nextPage}>Next</a>
+                            <a className='page-link' onClick={nextPage}>Next</a>
                         </li>
                     </ul>
                 </Row>
