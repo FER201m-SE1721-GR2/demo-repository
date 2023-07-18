@@ -76,11 +76,11 @@ const Post = () => {
                                     </div>
                                     <div className="articlecontent col-7">
                                         <h4>{p.title}</h4>
-                                        <br/>
+                                     
                                         <Row style={{paddingLeft:'15px'}}><h6 className='news-logo'>{categories.map(c => c.category_id === p.category_id ? c.category_name : '')}</h6></Row>
-                                        <br/>
+                                    
                                         <p>{p.body.length > 100 ? `${p.body.substring(0, 100)}...` : p.body}</p>
-                                        <br/>
+                                    
                                         <p className="incard-fontsize">By {p.author} &nbsp; <FontAwesomeIcon icon={faCalendarDays} style={{ color: "#737882", }} />&nbsp; {p.date} </p>
                                     </div>
                                 </article>

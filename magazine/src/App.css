@@ -266,3 +266,41 @@ footer ul li span::before {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+.searchbar{
+  text-align: end;
+  margin-top: 40px;
+}
+.postlist{
+  display: block;
+  list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.listposts{
+  margin-top: 20px;
+  display: list-item;
+  border: 1px solid;
+}
+.listposts a{
+  color: black;
+}
+.articleclass{
+  display: flex;
+}
+.articlecontent{
+  align-self: center;
+  flex: 2 1 auto;
+  width: 75%;
+}
+.articleimage{
+  padding-left: 10px;
+  min-width: 0px;
+  align-self: center;
+}
+.articleimage img{
+  width: 100%;
+  height: auto;
+}
