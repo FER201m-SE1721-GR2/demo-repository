@@ -1,4 +1,4 @@
-import { Nav, Container, Image, Row, Col, Form, NavDropdown } from "react-bootstrap";
+import { Nav, Container, Image, Row } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import logo from './img/logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,11 +12,11 @@ const HeaderApp = () => {
                 <Row style={{ justifyContent: 'space-between' }}>
                     <NavLink className="special" to='/'><Image className="logo_size" src={logo}></Image></NavLink>
                     <div style={{ display: 'flex' }}>
-                        <NavLink to={'/news'} className={({ isActive }) => isActive ? 'link-active' : 'link'}><span>News</span></NavLink>
+                        <NavLink to={'/new'} className={({ isActive }) => isActive ? 'link-active' : 'link'}><span>New</span></NavLink>
 
                         <NavLink to={'/category'}>Category</NavLink>
+                        <NavLink to={'/post'} className={({ isActive }) => isActive ? 'link-active' : 'link'}>Post</NavLink>
                         <NavLink to={'/community'} className={({ isActive }) => isActive ? 'link-active' : 'link'}>Community</NavLink>
-                        <NavLink to={'/aboutus'} className={({ isActive }) => isActive ? 'link-active' : 'link'}>About us</NavLink>
                     </div>
 
                     <div style={{ display: 'flex', alignItems: 'center', marginRight: '40px' }}>

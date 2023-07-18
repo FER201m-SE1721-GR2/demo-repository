@@ -57,7 +57,7 @@ const Trending = () => {
             <Row>
                 {
                     trend.map(tn => {
-                        const pst = post.find(p => p.post_id === tn.post_id);
+                        const pst = post.find(p => p.id === tn.id);
                         const thumbnail = pst ? pst.thumbnail : '';
                         const title = pst ? pst.title : '';
                         const body = pst ? pst.body : '';
@@ -68,7 +68,7 @@ const Trending = () => {
 
 
                             <Col lg={6} className="card-wrapper">
-                                <Card className="custom-card" style={{ marginTop: '20px' }} key={tn.post_id}>
+                                <Card className="custom-card" style={{ marginTop: '20px' }} key={tn.id}>
                                     <Card.Img variant="top" src={thumbnail} />
                                     <Card.Body>
                                         <Card.Title>

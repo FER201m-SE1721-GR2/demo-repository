@@ -235,6 +235,31 @@
 }
 
 
+/*------------------Post Detail------------------*/
+.title-detail{
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.sub-information{
+  color: #808080;
+}
+
+.author-detail{
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #df3e29;
+}
+
+.coverimg{
+   height: 70%;
+   width: 70%;
+}
+
+
+
+
+
 /*--------------------Footer-------------------------*/
 footer {
   background-color: #000;

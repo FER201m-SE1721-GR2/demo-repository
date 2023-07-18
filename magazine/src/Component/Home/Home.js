@@ -2,15 +2,15 @@ import { Container, Carousel, Row, Col, Image } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import Trending from "./Trending";
 import Community from "./LPSide";
-import News from "./News";
+import { Link } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 
 const Home = () => {
 
-    const [post_id, setpost_id] = useState(0);
+    const [id, setid] = useState(0);
     const [post, setpost] = useState([]);
     const [carousel, setcarousel] = useState([]);
-
 
 
     //Call API: /posts
@@ -43,24 +43,30 @@ const Home = () => {
                 <Col xs={12} md={12} lg={12}>
                     <Carousel style={{ margin: '0 20px 0 20px' }}>
                         {
+
                             carousel.map(ca => {
-                                const pst = post.find(p => p.post_id === ca.post_id);
+                                const pst = post.find(p => p.id === ca.id);
                                 const thumbnail = pst ? pst.thumbnail : '';
-                                const title = pst ? pst.title:'';
-                                const body = pst ? pst.body:'';
+                                const title = pst ? pst.title : '';
+                                const describe = pst ? pst.describe : '';
 
                                 return (
+
                                     <Carousel.Item key={ca.carousel_id}>
-                                        <Image
-                                            className="d-block w-100"
-                                            src={thumbnail}
-                                            alt="First slide"
-                                        />
-                                        <Carousel.Caption>
-                                            <h3>{title}</h3>
-                                            <p>{body}</p>
-                                        </Carousel.Caption>
+                                        <Link to={'/post/detail/' + ca.id} style={{ textDecoration: 'none', color: 'inherit' }}>
+                                            <Image
+                                                className="d-block w-100"
+                                                src={thumbnail}
+                                                alt="First slide"
+                                            />
+
+                                            <Carousel.Caption style={{ backgroundColor: 'black', opacity: '0.8', display: 'block' }}>
+                                                <h3>{title}</h3>
+                                                <p>{describe}</p>
+                                            </Carousel.Caption>
+                                        </Link>
                                     </Carousel.Item>
+
                                 );
                             })}
                     </Carousel>

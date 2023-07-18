@@ -1,231 +1,147 @@
 {
   "posts": [
     {
-      "post_id": 1,
-      "category_id": "1",
-      "date": "23/08/2023",
+      "id": 1,
+      "category_id": 1,
+      "date": "ngày 23 tháng 1 năm 2023",
       "author": "Mai Tú",
-      "title": "How Is Capcom's RE Engine So Versatile?",
-      "body": "If Ubisoft's summer showcase was any indication, it's going all-in on Assassin's Creed. But a recent report from Kotaku suggests that the company's commitment to the franchise might be going even deeper than we thought; Ubisoft has recently begun the process of remaking Assassin's Creed IV: Black Flag.",
-      "thumbnail": "https://www.gameinformer.com/sites/default/files/styles/full/public/2023/06/19/4a9cadcb/2024videogamereleases.jpg"
+      "title": "The Boys xâm nhập vào  Call Of Duty trong tuần này",
+      "describe":"Phần 4 được tải lại của Call of Duty: Modern Warfare II và Warzone sẽ nhận được một lượng lớn loạt phim ăn khách của Amazon  The Boys với tiết lộ rằng Homelander, Starlight và Black Noir sẽ tham gia trò chơi",
+      "paragraph": "Trong một đoạn giới thiệu hài hước có Black Noir, anh ấy âm thầm xác nhận với một nhóm báo chí rằng anh ấy và đồng đội của mình sẽ làm hài lòng các game bắn súng bắt đầu từ ngày 12 tháng 7. Mỗi anh hùng nhận được Gói Người điều hành của riêng họ, với Starlight ra mắt vào ngày 12 tháng 7, Homelander vào ngày 16 tháng 7 và Black Noir vào ngày 20 tháng 7. Mỗi chiếc có giá 2.400 điểm COD và bao gồm nhân vật cùng với các vật phẩm như bùa vũ khí, nhãn dán, biểu tượng và bản thiết kế vũ khí. Mỗi nhân vật cũng đi kèm với một động tác kết thúc độc đáo.\nản cập nhật bao gồm các yếu tố bản đồ theo chủ đề The Boys và bản đồ 6v6 bổ sung, nâng cấp trường Temp V, thử thách Diabolical Camo, Battle Royale đánh Vondel và trận chung kết The Raid. Bạn có thể thấy những gì sắp xảy ra trong hình bên dưới (bấm vào để phóng to).Bản cập nhật bao gồm các yếu tố bản đồ theo chủ đề The Boys và bản đồ 6v6 bổ sung, nâng cấp trường Temp V, thử thách Diabolical Camo, Battle Royale đánh Vondel và trận chung kết The Raid. Bạn có thể thấy những gì sắp xảy ra trong hình bên dưới (bấm vào để phóng to).\nBạn có thể tìm hiểu thêm chi tiết bằng cách truy cập bài đăng trên blog Call of Duty này . Bạn cũng có thể xem qua từng anh hùng trong bộ sưu tập bên dưới.",
+      "thumbnail": "https://www.gameinformer.com/sites/default/files/2023/07/10/9c052d43/call_of_duty_the_boys.jpg"
     },
     {
-      "post_id": 2,
-      "category_id": "1",
-      "date": "23/08/2023",
+      "id": 2,
+      "category_id": 1,
+      "date": "ngày 26 tháng 5 năm 2023",
       "author": "Mai Tú",
-      "title": "Ubisoft Reportedly Plans To Remake Assassin's Creed 4: Black Flag",
-      "body": "This news comes from yesterday's court trial between Xbox (and Activision Blizzard) and the Federal Trade Commission over Microsoft's attempted acquisition of Activision Blizzard. Bond claimed in court that, in the leadup to the launch of the PlayStation 5 and Xbox Series X/S generation of hardware in 2020, Activision Blizzard CEO Bobby Kotick said his",
-      "thumbnail": "https://www.gameinformer.com/sites/default/files/styles/full/public/2023/07/03/25788f06/assassins_creed_4_jungle.png"
+      "title": "Bạn có thể xem hoạt hình mở đầu cho Sonic Superstars ngay bây giờ",
+      "describe":"Sega đã phát hành hoạt hình mở đầu cho Sonic Superstars trước khi trò chơi được phát hành vào cuối mùa thu này.",
+      "paragraph": "Sonic Superstars là một cuộc phiêu lưu 2D được hiện đại hóa với tính năng phối hợp bốn người chơi, bạn sẽ cần sử dụng tính năng này để nhập vai Sonic the Hedgehog, Tails, Knuckles và Amy. Thông báo của nó là một trong những bất ngờ lớn nhất của Summer Game Fest, và sau khi bắt tay vào thực hiện nó trong sự kiện Play Days của SGF, chúng tôi đã rất hào hứng với cuộc phiêu lưu mới nhất của blue blur.\nNhư bạn có thể thấy, Sonic Superstars có phần mở đầu kiểu Sonic CD, với bầu trời xanh sáng và đồng bằng xanh ngọc lục bảo. Sau khi vượt qua một số kẻ thù, Sonic tham gia cùng người bạn Tails của mình trước khi hợp tác với phần còn lại của dàn diễn viên có thể chơi được của Sonic Superstars, Knuckles và Amy. Cùng nhau, cả bốn người chuẩn bị đối đầu với Eggman trước khi tăng tốc về phía màn hình.\nĐoạn giới thiệu kết thúc với thông tin rằng nếu bạn đặt hàng trước trò chơi, bạn sẽ nhận được “da nhân vật trong trò chơi Lego Eggman độc quyền, giá đỡ màn hình acrylic và nắp có thể đảo ngược.” Phần thưởng đặt hàng trước này sẽ trở nên tuyệt vời với các skin Lego Sonic Superstars khác sắp ra mắt trò chơi dưới dạng DLC.\nSega vẫn chưa tiết lộ ngày phát hành cho Sonic Superstars nhưng nó sẽ ra mắt vào mùa thu này trên PlayStation 5, Xbox Series X/S, PlayStation 4, Xbox One, Switch và PC.",
+      "thumbnail": "https://www.gameinformer.com/sites/default/files/styles/full/public/2023/07/18/a0d69e90/sonic_superstars_opening_animation_movie_cutscene_sega.jpg"
     },
     {
-      "post_id": 3,
-      "category_id": "1",
-      "date": "23/08/2023",
-      "author": "Mai Tú",
-      "title": "New update Doomsday",
-      "body": "The confusion began yesterday, June 25, when Bethesda's support Twitter account tweeted that all physical versions of the upcoming game would include a code instead of a disc, a message that was later deleted without clarification. You can read all about that in the original version of this post below, but that same support account responded this afternoon with a link to a June 11 blog post detailing the release details and stating...",
-      "thumbnail": "https://www.gameinformer.com/sites/default/files/styles/full/public/2023/06/30/ec36f12d/scorn_ps5_1.jpg"
-    },
-    {
-      "post_id": 4,
-      "category_id": "1",
-      "date": "23/08/2023",
-      "author": "Mai Tú",
-      "title": "Sonic Origins Plus Impressions – Two Steps Forward, One Step Back",
-      "body": "Publisher Humble Games and developer Crema have revealed Temtem Showdown, a new standalone battle-focused game, and it's out right now.This surprise reveal comes less than a year after the full 1.0 release of Temtem, the game that Showdown is based on. Similar to Pokemon Showdown, Temtem Showdown is all about battling. It's also free to everyone.",
-      "thumbnail": "https://www.gameinformer.com/sites/default/files/styles/full/public/2023/06/23/57ac45ef/amy_sonic2_chemicalplant_1.jpg"
-    },
-    {
-      "post_id": 5,
-      "category_id": "1",
-      "date": "23/08/2023",
-      "author": "Mai Tú",
-      "title": "Diablo IV Review",
-      "body": "Update, 6:03 p.m.: Bethesda has confirmed that physical versions of the Standard Edition of Starfield for Xbox will include a disc.The confusion began yesterday, June 25, when Bethesda's support Twitter account tweeted that all physical versions of the upcoming game would include a code instead of a disc, a message that was later deleted without clarification. You can read all about that in the original version of this post below, but that same support account responded this afternoon with a link to a June 11 blog post detailing the release details and stating...",
-      "thumbnail": "https://www.gameinformer.com/sites/default/files/styles/full/public/2023/06/05/54d66459/d4_cinematic_inarius.jpg"
-    },
-    {
-      "post_id": 6,
-      "category_id": "1",
-      "date": "23/08/2023",
-      "author": "Mai Tú",
-      "title": "The Legend of Zelda: Tears of the Kingdom Review",
-      "body": "Nintendo has revealed that a visually enhanced version of Luigi's Mansion: Dark Moon is coming to Switch next year. Dark Moon, otherwise known as Luigi's Mansion 2, was previously released as Nintendo 3DS-exclusive game, and its journey to Switch in 2024 marks the first time it will be playable elsewhere. To reveal the visually enhanced port, Nintendo released a short teaser trailer showcasing the game's fancy new visuals.Check out the Luigi's Mansion: Dark Moon (for Switch) teaser trailer in Nintendo's tweet below: ",
-      "thumbnail": "https://www.gameinformer.com/sites/default/files/styles/full/public/2023/02/08/b8048f34/switch_tloz_totk_screen_31.jpg"
-    },
-    {
-      "post_id": 7,
-      "category_id": "1",
-      "date": "23/08/2023",
-      "author": "Mai Tú",
-      "title": "Redfall Review",
-      "body": "This news comes from yesterday's court trial between Xbox (and Activision Blizzard) and the Federal Trade Commission over Microsoft's attempted acquisition of Activision Blizzard. Bond claimed in court that, in the leadup to the launch of the PlayStation 5 and Xbox Series X/S generation of hardware in 2020, Activision Blizzard CEO Bobby Kotick said his company did not intend to put Call of Duty – presumably new, upcoming ones – on the Xbox platform unless Microsoft shared more revenue. ",
-      "thumbnail": "https://www.gameinformer.com/sites/default/files/styles/full/public/2023/05/08/6a9d2d44/redfall-review-game-informer.jpg"
-    },
-    {
-      "post_id": 8,
-      "category_id": "1",
-      "date": "23/08/2023",
-      "author": "Mai Tú",
-      "title": "The Top 10 Games On Switch",
-      "body": "Starfield Standard Edition is included with Xbox Game Pass. Game disc included with physical purchases of Xbox Standard Edition. Game code included with physical purchases on PC Standard edition.",
-      "thumbnail": "https://s3.amazonaws.com/prod-media.gameinformer.com/styles/full/s3/2018/07/30/05466c6e/Top10_Revisited_Switch.jpg"
-    },
-    {
-      "post_id": 9,
-      "category_id": "2",
-      "date": "23/08/2023",
-      "author": "Admin",
-      "title": "Temtem Showdown Is A Free Standalone Battle-Focused Game And It's Out Now",
-      "body": "Publisher Humble Games and developer Crema have revealed Temtem Showdown, a new standalone battle-focused game, and it's out right now.This surprise reveal comes less than a year after the full 1.0 release of Temtem, the game that Showdown is based on. Similar to Pokemon Showdown, Temtem Showdown is all about battling. It's also free to everyone. ",
-      "thumbnail": "https://www.gameinformer.com/sites/default/files/styles/full/public/2023/06/23/2df24c19/temtem_showdown_header.jpg"
-    },
-    {
-      "post_id": 10,
-      "category_id": "2",
-      "date": "24/08/2023",
-      "author": "Admin",
-      "title": "Diablo IV’s Season Of The Malignant Kicks Off July 20",
-      "body": "Diablo IV’s first season kicks off on July 20, and it’s called Season of the Malignant. Blizzard revealed a new trailer along with details of the content update in a livestream today.Season of the Malignant introduces a new questline set after the main campaign in which Malignant Monsters, born from Lilith’s corruption, are terrorizing Sanctuary. It’s up to you and a former priest named Cormond to locate and eradicate the source of this blight. ",
-      "thumbnail": "https://mp1st.com/wp-content/uploads/2023/07/diablo-4-season-of-the-malignant.jpg"
-    },
-    {
-      "post_id": 11,
-      "category_id": "2",
-      "date": "24/08/2023",
+      "id": 3,
+      "category_id": 1,
+      "date": "ngày 14 tháng 7 năm 2023",
       "author": "Wesley LeBlanc",
-      "title": "NetherRealm Reveals Smoke And Rain For Mortal Kombat 1 Fighter Roster",
-      "body": "NetherRealm has revealed two more playable fighters joining the Mortal Kombat 1 roster: Smoke and Rain.These two returning characters were revealed as actual fighters on the roster – they still could be part of the Kameo roster, however – in a new gameplay trailer released today focused on the Lin Kuei faction. In it, we witness Scorpion and Sub-Zero's further attempts to establish this faction in Liu Kang's newly rebooted Mortal Kombat universe (hence the Mortal Kombat 1 title), where Smoke and Rain come into play. ",
-      "thumbnail": "https://www.gameinformer.com/sites/default/files/styles/full/public/2023/07/06/5b3d67df/mortal_kombat_header_3.jpg"
+      "title": "Stray Gods: Thể Loại Nhạc Kịch Nhập Vai Bị Trì Hoãn Một Tuần",
+      "describe":"Đây là những gì Humble Games và Summerfall Studios nói về sự chậm trễ của Stray Gods.",
+      "paragraph": "Chúng tôi rất vui mừng - Stray Gods chỉ còn chưa đầy một tháng nữa! Chúng tôi đang đếm từng ngày và chúng tôi biết bạn cũng vậy, nhưng chúng tôi cần điều chỉnh một chút lịch. Chúng tôi sẽ dời ngày ra mắt sang ngày 10 tháng 8 năm 2023. Chúng tôi muốn mọi người có nhiều không gian để xem Stray Gods khi nó ra mắt. Baldur's Gate 3 rất được mong đợi (cả chúng tôi nữa!) và chúng tôi muốn dành chỗ cho người hâm mộ của mình để chào mừng các vị thần đi lạc.\n Chúng tôi cũng muốn mọi người có thể chơi trên thiết bị ưa thích của họ khi ra mắt. Đây là một công việc to lớn đối với bất kỳ đội nào, chứ đừng nói đến một đội độc lập đang vận chuyển danh hiệu đầu tiên của mình. Tuần bổ sung này cho phép chúng tôi có hiệu suất ngang bằng nhất có thể - trên mọi nền tảng.\nChúng tôi rất vui mừng được chia sẻ Stray Gods với bạn và chúng tôi hy vọng bạn sẽ tham gia cùng chúng tôi vào ngày 10 tháng 8 để chơi và ăn mừng trò chơi mà chúng tôi đã dành rất nhiều tình cảm này!\nĐối với những người chưa quen, Stray Gods là một vai trò được minh họa bằng tay -chơi nhạc trong đó người chơi sẽ quyết định lời thoại trong các bài hát, tương tự như chọn các lựa chọn đối thoại trong một game nhập vai. Phần âm nhạc do nhà soạn nhạc được đề cử giải Grammy Austin Wintory (Journey, The Pathless, Assassin's Creed Syndicate), Tripod và Montaigne sáng tác.\nStray Gods: The Role-Playing Music ra mắt PlayStation 5, Xbox Series X/S, PlayStation 4, Xbox One, Switch và PC vào ngày 10 tháng 8 năm 2023.",
+      "thumbnail": "https://www.gameinformer.com/sites/default/files/styles/full/public/2023/07/14/f75d9ff3/stray_gods_the_role_playing_musical_delayed_august_10_new_release_date.jpg"
+    },
+    {
+      "id": 4,
+      "category_id": 1,
+      "date": "ngày 13 tháng 7 năm 2023",
+      "author": "Mai Tú",
+      "title": "EA Sports FC 24 được tiết lộ với ngày phát hành tháng 9",
+      "describe":"Trong buổi phát trực tiếp tiết lộ chính thức ngày hôm nay, EA Sports đã tiết lộ EA Sports FC 24, sự thay thế cho nhượng quyền thương mại FIFA cực kỳ nổi tiếng của nó. Việc loại bỏ giấy phép FIFA đã được công bố vào năm ngoái và hôm nay, chúng tôi đã có cái nhìn đầu tiên về danh hiệu bóng đá EA Sports năm nay.",
+      "paragraph": "Sân lớn năm nay từ EA Sports xoay quanh công nghệ tiên tiến của nó. Công cụ Frostbite độc ​​quyền của EA trở lại, nhưng với những cải tiến, bao gồm cả bộ xương mô hình nhân vật Sapien mới được giới thiệu lần đầu tiên thông qua phạm vi bảo hiểm Madden NFL 24 của chúng tôi vào tháng trước . Khung xương đảm bảo rằng người chơi trông chân thực hơn khi đứng yên cũng như khi chuyển động, tạo ra chuyển động chân thực hơn ảnh hưởng đến cả hình ảnh và lối chơi của trò chơi. Việc triển khai Frostbite năm nay cũng bao gồm công nghệ vải GPU mới, nhằm đảm bảo rằng bộ công cụ của người chơi di chuyển giống như vật liệu trong thế giới thực khi phản ứng với chuyển động của người chơi. Bạn cũng có thể mong đợi trải nghiệm ngày thi đấu tốt hơn, với hoạt ảnh và cảnh mới có hành động diễn ra xung quanh sân chứ không chỉ trên sân.\nCông nghệ mới quan trọng với mục này là HyperMotionV. Mục đích của công nghệ này là chuyển nhịp điệu và sự trôi chảy của bóng đá trong thế giới thực sang EA Sports FC 24. Sử dụng công nghệ này, một cầu thủ trong thế giới thực có thể thực hiện một động tác mới không có trong trò chơi, sau đó, trong vòng vài ngày, HyperMotionV có thể tận dụng khả năng chụp thể tích để tạo hoạt ảnh chính xác xung quanh nước đi mới đó và đưa nó vào trò chơi nhanh hơn bao giờ hết. Nghe có vẻ ấn tượng, vì vậy thật hợp lý khi EA Sports cho biết công nghệ HyperMotionV chỉ có trong PlayStation 5, Xbox Series X/S và các phiên bản PC của EA Sports FC 24.\nCuối cùng, một hệ thống mới được gọi là PlayStyles đã được đưa vào trò chơi năm nay. Sử dụng tối ưu hóa Opta, PlayStyles vượt xa xếp hạng trong trò chơi của sê-ri để đưa các vận động viên vào cuộc sống theo những cách mới. Mỗi PlayStyle cung cấp cho các ngôi sao và những người chơi khác những khả năng riêng biệt nhằm tạo ra trải nghiệm chân thực hơn trên sân cỏ.\nEA Sports cũng đã công bố các giải đấu mới sắp ra mắt, bao gồm Liga F và Frauen-Bundesliga, sẽ tham gia các giải đấu hiện có như Laliga, Bundesliga, Serie A và Conmebol Libertadores. Công ty cũng đã công bố một sự gia hạn độc quyền với UEFA, biến EA Sports FC 24 trở thành nơi duy nhất bạn có thể chơi UEFA Champions League, UEFA Women's Champions League, UEFA Europea League, UEFA Europa Conference League và UEFA Super Cup. Cuối cùng, chúng tôi được biết rằng loạt FC đã đảm bảo gia hạn dài hạn với Premier League",
+      "thumbnail": "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2023/07/13/0a3a3614/fc1.jpg"
+    },
+    {
+      "id": 5,
+      "category_id": 1,
+      "date": "ngày 13 tháng 7 năm 2023",
+      "author": "Mai Tú",
+      "title": "EA Sports FC 24 được tiết lộ với ngày phát hành tháng 9",
+      "describe":"Trong buổi phát trực tiếp tiết lộ chính thức ngày hôm nay, EA Sports đã tiết lộ EA Sports FC 24, sự thay thế cho nhượng quyền thương mại FIFA cực kỳ nổi tiếng của nó. Việc loại bỏ giấy phép FIFA đã được công bố vào năm ngoái và hôm nay, chúng tôi đã có cái nhìn đầu tiên về danh hiệu bóng đá EA Sports năm nay.",
+      "paragraph": "Sân lớn năm nay từ EA Sports xoay quanh công nghệ tiên tiến của nó. Công cụ Frostbite độc ​​quyền của EA trở lại, nhưng với những cải tiến, bao gồm cả bộ xương mô hình nhân vật Sapien mới được giới thiệu lần đầu tiên thông qua phạm vi bảo hiểm Madden NFL 24 của chúng tôi vào tháng trước . Khung xương đảm bảo rằng người chơi trông chân thực hơn khi đứng yên cũng như khi chuyển động, tạo ra chuyển động chân thực hơn ảnh hưởng đến cả hình ảnh và lối chơi của trò chơi. Việc triển khai Frostbite năm nay cũng bao gồm công nghệ vải GPU mới, nhằm đảm bảo rằng bộ công cụ của người chơi di chuyển giống như vật liệu trong thế giới thực khi phản ứng với chuyển động của người chơi. Bạn cũng có thể mong đợi trải nghiệm ngày thi đấu tốt hơn, với hoạt ảnh và cảnh mới có hành động diễn ra xung quanh sân chứ không chỉ trên sân.\nCông nghệ mới quan trọng với mục này là HyperMotionV. Mục đích của công nghệ này là chuyển nhịp điệu và sự trôi chảy của bóng đá trong thế giới thực sang EA Sports FC 24. Sử dụng công nghệ này, một cầu thủ trong thế giới thực có thể thực hiện một động tác mới không có trong trò chơi, sau đó, trong vòng vài ngày, HyperMotionV có thể tận dụng khả năng chụp thể tích để tạo hoạt ảnh chính xác xung quanh nước đi mới đó và đưa nó vào trò chơi nhanh hơn bao giờ hết. Nghe có vẻ ấn tượng, vì vậy thật hợp lý khi EA Sports cho biết công nghệ HyperMotionV chỉ có trong PlayStation 5, Xbox Series X/S và các phiên bản PC của EA Sports FC 24.\nCuối cùng, một hệ thống mới được gọi là PlayStyles đã được đưa vào trò chơi năm nay. Sử dụng tối ưu hóa Opta, PlayStyles vượt xa xếp hạng trong trò chơi của sê-ri để đưa các vận động viên vào cuộc sống theo những cách mới. Mỗi PlayStyle cung cấp cho các ngôi sao và những người chơi khác những khả năng riêng biệt nhằm tạo ra trải nghiệm chân thực hơn trên sân cỏ.\nEA Sports cũng đã công bố các giải đấu mới sắp ra mắt, bao gồm Liga F và Frauen-Bundesliga, sẽ tham gia các giải đấu hiện có như Laliga, Bundesliga, Serie A và Conmebol Libertadores. Công ty cũng đã công bố một sự gia hạn độc quyền với UEFA, biến EA Sports FC 24 trở thành nơi duy nhất bạn có thể chơi UEFA Champions League, UEFA Women's Champions League, UEFA Europea League, UEFA Europa Conference League và UEFA Super Cup. Cuối cùng, chúng tôi được biết rằng loạt FC đã đảm bảo gia hạn dài hạn với Premier League",
+      "thumbnail": "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2023/07/13/0a3a3614/fc1.jpg"
+    },
+    {
+      "id": 4,
+      "category_id": 4,
+      "date": "ngày 13 tháng 7 năm 2023",
+      "author": "Mai Tú",
+      "title": "Đã đến lúc nhiều trò chơi tập trung vào thế hệ phần cứng mới",
+      "describe":"Hôm qua đánh dấu một năm rưỡi kể từ khi bắt đầu thế hệ bảng điều khiển này. Nhiều trò chơi tuyệt vời có sẵn trên PlayStation 5 và Xbox Series X, nhưng có một vấn đề. Có vẻ như chúng tôi đã không thấy sự cải thiện chất lượng đáng kể như đã hứa với phần cứng mới. Là chủ sở hữu của cả hai bảng điều khiển đó, tôi khá thất vọng. Hôm qua, chúng ta đã biết Gotham Knights sẽ chỉ phát hành trên thế hệ hiện tại, bỏ lại PS4 và Xbox One, và bạn biết không? Tôi rất vui vì điều đó đang xảy ra và nhiều hãng phim khác nên cân nhắc làm điều tương tự.",
+      "paragraph": "Tôi rất biết rằng vẫn còn nhiều người sử dụng bảng điều khiển thế hệ cuối không thể mua máy mới vì nhiều lý do – hạn chế về nguồn cung và mức giá cao là một trong những lý do phổ biến nhất. Tuy nhiên, khi thời gian trôi qua và những bảng điều khiển này trở nên rẻ hơn và sẵn có, người tiêu dùng phải có lý do để chọn nâng cấp và mua một chiếc, chẳng hạn như các trò chơi tận dụng tối đa công nghệ được lưu trữ bên trong các hộp công nghệ cao này hoặc bất kỳ hình dạng nào của bạn. muốn gọi PS5.\nNhững cải tiến về hiệu suất và đồ họa chỉ là phần nổi của tảng băng trôi đối với những gì tôi muốn thấy trong các trò chơi dành riêng cho PS5 hoặc Series X/S, nhưng hình ảnh cũng quan trọng như bất kỳ cải tiến kỹ thuật nào khác để mang lại trải nghiệm đắm chìm đáng kinh ngạc hay đơn giản là yếu tố gây kinh ngạc.  Một số nhà phát triển đã sử dụng các kỹ thuật hình ảnh mới như dò tia để tạo bóng và phản xạ chân thực. Tuy nhiên, điều này đi kèm với chi phí tài nguyên đáng kể, đặc biệt là trong các trò chơi đa thế hệ. Kích hoạt một trò chơi đa thế hệ và điều chỉnh cài đặt đồ họa của nó để thấy một số hình ảnh lộng lẫy, chỉ để thấy rằng nó làm tăng hiệu suất đáng kể, thật là đau đớn. Các tựa game như Returnal hay Astro's Playroom là những ví dụ về trò chơi được hưởng lợi từ phần cứng thế hệ mới bằng cách sử dụng các kỹ thuật ánh sáng và bóng tối mới, vô số hiệu ứng hạt ấn tượng.\nNhững bảng điều khiển này bao gồm các ổ SSD tốc độ cao mà chúng ta thường thấy được sử dụng để giảm thời gian tải và tốt nhất là giúp nhảy kích thước nhanh chóng trong Ratchet & Clank: Rift Apart. Có rất nhiều điều khả thi với các giải pháp lưu trữ nhanh như chớp ngoài việc làm cho trò chơi bật lên nhanh hơn. Nhiều tệp dành cho trò chơi đã được cơ cấu lại để phù hợp với kiến ​​trúc lưu trữ và bộ nhớ nâng cao, giúp giảm kích thước tải xuống của trò chơi. Các màn trình diễn ấn tượng hơn về Unreal Engine 5 và bản demo công nghệ The Matrix Awakens gần đây cho thấy việc di chuyển nhanh chóng trên những vùng đất rộng lớn chỉ trong vài giây trông tự nhiên như thế nào theo những cách không thể thực hiện được nếu một trò chơi được kết nối để phát triển trên thế hệ trước các hệ thống. Hãy tưởng tượng một trò chơi Siêu nhân có siêu anh hùng lướt qua Metropolis mà không gặp trở ngại nào, với cửa sổ bật lên tối thiểu vì phần cứng có thể xử lý quá trình chuyển đổi nhanh chóng trên toàn thành phố. Một nghệ sĩ kỹ thuật tên là Volod đã thực sự tạo ra nguyên mẫu Siêu nhân đó bằng cách sử dụng tài sản của thành phố từ The Matrix Awakens và kết quả ban đầu thật tuyệt vời!\nTuy nhiên, bản demo The Matrix chỉ có vậy vào lúc này; một bản trình diễn. Những tài sản đó – và các công cụ thế hệ tiếp theo mà chúng được xây dựng, như Unreal Engine 5 – chỉ mới được cung cấp cho tất cả các nhà phát triển trong vài tháng qua và sẽ còn một chặng đường dài để khiến thế hệ này thực sự cảm thấy thế hệ tiếp theo . Nhiều giải pháp đồ họa và kỹ thuật mà tôi đề cập ở trên được tích hợp sẵn trong DNA của phần mềm đã phát triển này và có thể sẽ là chất xúc tác để nhiều nhà phát triển thúc đẩy bảng điều khiển hiện tại hơn nữa.\nTôi nhận ra rằng nhiều yếu tố đã làm cho khoảng thời gian dài giữa các thế hệ trở nên cần thiết đối với nhiều công ty . Tuy nhiên, một khi các công cụ mạnh mẽ/hiệu quả hơn này bắt đầu phát trực tuyến đầy đủ, tôi hy vọng các nhà phát triển sẽ tự giải phóng mình khỏi phần cứng cũ để giải phóng tiềm năng thực sự của PS5 và Series X.",
+      "thumbnail": "https://www.gameinformer.com/sites/default/files/styles/full/public/2021/06/09/6d6c0230/rc_riftapart_heroes_ps5-scaled.jpg"
     }
   ],
   "carousel": [
     {
       "carousel_id": 1,
-      "post_id": 1
+      "id": 1
     },
     {
       "carousel_id": 2,
-      "post_id": 2
+      "id": 2
     },
     {
       "carousel_id": 3,
-      "post_id": 3
+      "id": 5
     }
   ],
   "trending": [
     {
       "trend_id": 1,
-      "post_id": 1
+      "id": 1
     },
     {
       "trend_id": 2,
-      "post_id": 2
+      "id": 2
     },
     {
       "trend_id": 3,
-      "post_id": 3
+      "id": 3
     },
     {
       "trend_id": 4,
-      "post_id": 4
-    },
-    {
-      "trend_id": 5,
-      "post_id": 6
-    },
-    {
-      "trend_id": 6,
-      "post_id": 9
+      "id": 4
     }
   ],
   "news": [
     {
       "news_id": 1,
-      "post_id": 1
+      "id": 1
     },
     {
       "news_id": 2,
-      "post_id": 2
+      "id": 2
     },
     {
       "news_id": 3,
-      "post_id": 3
+      "id": 3
     },
     {
       "news_id": 4,
-      "post_id": 4
+      "id": 4
     },
     {
       "news_id": 5,
-      "post_id": 6
-    },
-    {
-      "news_id": 6,
-      "post_id": 8
-    },
-    {
-      "news_id": 7,
-      "post_id": 9
-    },
-    {
-      "news_id": 8,
-      "post_id": 10
-    },
-    {
-      "news_id": 9,
-      "post_id": 5
-    },
-    {
-      "news_id": 10,
-      "post_id": 7
-    },
-    {
-      "news_id": 11,
-      "post_id": 11
+      "id": 5
     }
   ],
   "category": [
     {
       "category_id": 1,
       "category_name": "PC"
-      
-      
     },
     {
       "category_id": 2,
       "category_name": "Mobile"
-        
-       
     },
     {
       "category_id": 3,
       "category_name": "Console"
-         
-      
     },
     {
       "category_id": 4,
-      "category_name": "Switch"
-         
-      
+      "category_name": "Ý kiến"
     },
     {
       "category_id": 5,
       "category_name": "All"
-           
-      
     },
     {
       "category_id": 6,
-      "category_name": ["PC","Mobile"]
-    
-    },
-    {
-      "category_id": 67,
-      "category_name": ["PC","Console"]
-    
+      "category_name": [
+        "PC",
+        "Mobile"
+      ]
     }
   ]
 }
