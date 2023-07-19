@@ -9,9 +9,11 @@ import Home from './Component/Home/Home';
 import Footer from './Component/Footer';
 import New from './Component/Home/New';
 import Category from './Component/Category';
-
-import Community from './Component/Community';
 import PostDetail from './Component/PostDetail';
+import UserProfile from './Component/UserProfile';
+import PostManagement from './Component/Admin/PostManagement';
+import CreatePost from './Component/Admin/CreatePost';
+import EditPost from './Component/Admin/EditPost';
 
 function App() {
   return (
@@ -25,7 +27,10 @@ function App() {
         <Route path='/post' element={<Post />} ></Route>
         <Route path='/post/detail/:pid' element={<PostDetail/>} ></Route>
         <Route path='/category' element={<Category />}></Route>
-        <Route path='/community' element={<Community/>}></Route>
+        <Route path='/userprofile' element={<UserProfile/>}></Route>
+        <Route path='/post/management' element={<PostManagement/>}></Route>
+        <Route path='/post/create' element={<CreatePost/>}></Route>
+        <Route path='/post/edit/:pid' element={<EditPost/>}></Route>
       </Routes>
       <Footer/>
     </BrowserRouter>

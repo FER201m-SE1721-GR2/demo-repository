@@ -1,10 +1,33 @@
-import { Nav, Container, Image, Row } from "react-bootstrap";
+import { Nav, Container, Image, Row, NavDropdown } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import logo from './img/logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faMagnifyingGlass, faCircleUser } from '@fortawesome/free-solid-svg-icons';
+import { useState, useEffect } from "react";
 
 const HeaderApp = () => {
+
+    const [users, setUsers] = useState([]);
+    let user
+
+
+    if (sessionStorage.getItem('uName') != null) {
+        user = JSON.stringify(sessionStorage.getItem('uName'))
+
+    }
+    console.log(user);
+    let userrole = JSON.parse(sessionStorage.getItem('userrole'))
+    console.log(userrole);
+
+    useEffect(() => {
+        fetch(" http://localhost:9999/users").then((res) => res.json())
+            .then((data) => {
+                setUsers(data)
+
+            }).catch(err => {
+                console.log(err.message)
+            })
+    }, [])
 
     return (
         <Row className="header-app">
@@ -12,38 +35,46 @@ const HeaderApp = () => {
                 <Row style={{ justifyContent: 'space-between' }}>
                     <NavLink className="special" to='/'><Image className="logo_size" src={logo}></Image></NavLink>
                     <div style={{ display: 'flex' }}>
-                        <NavLink to={'/new'} className={({ isActive }) => isActive ? 'link-active' : 'link'}><span>New</span></NavLink>
+                        <NavLink to={'/new'} className={({ isActive }) => isActive ? 'link-active' : 'link'}><span>Bài đăng mới</span></NavLink>
 
-                        <NavLink to={'/category'}>Category</NavLink>
-                        <NavLink to={'/post'} className={({ isActive }) => isActive ? 'link-active' : 'link'}>Post</NavLink>
-                        <NavLink to={'/community'} className={({ isActive }) => isActive ? 'link-active' : 'link'}>Community</NavLink>
+                        <NavLink to={'/category'}>Khám phá thể loại</NavLink>
+                        <NavLink to={'/post'} className={({ isActive }) => isActive ? 'link-active' : 'link'}>Các bài đăng</NavLink>
+                        <a href="https://www.reddit.com/r/gaming/" className={({ isActive }) => isActive ? 'link-active' : 'link'}>Cộng đồng</a>
+
+
                     </div>
 
                     <div style={{ display: 'flex', alignItems: 'center', marginRight: '40px' }}>
-                        <NavLink className={({ isActive }) => isActive ? 'link-active' : 'link'}>
-                            <FontAwesomeIcon icon={faMagnifyingGlass} className="icon_size" />
-                        </NavLink>
-                        <NavLink className={({ isActive }) => isActive ? 'link-active' : 'link'} onclick="toggleProfile">
-                            <FontAwesomeIcon icon={faCircleUser} className="icon_size" />
-                        </NavLink>
-                        <div className="profileBox">
-                            <ul>
-                                <li>Option 1</li>
-                                <li>Option 2</li>
-                                <li>Option 3</li>
-                            </ul>
-                        </div>
-                        <NavLink className={({ isActive }) => isActive ? 'link-active' : 'link'}>
-                            <FontAwesomeIcon icon={faBars} className="icon_size" />
-                        </NavLink>
+                        <NavDropdown title={<FontAwesomeIcon icon={faCircleUser} className="icon_size" />}>
+                            <NavDropdown.Item>
+                                {
+                                    (user != undefined) ?
+                                            <Nav> Xin chào {user}
+                                                <NavLink to={'/login'}>Đăng xuất</NavLink>
+                                                <NavLink to={'/login'}/>
+                                                    {
+                                                        userrole == true ? <Nav>
+                                                            <NavLink to={'/post/management'} style={{ color: 'black' }}>
+                                                                Admin
+                                                            </NavLink>
+                                                        </Nav>
+                                                            :
+                                                        <></>
+                                                    }
+                                                
+                                            </Nav>
+                                        :
+                                        <Nav>
+                                            <NavLink to={'/login'}>Đăng nhập</NavLink>
+                                            <NavLink to={'/register'}>Đăng kí</NavLink>
+                                        </Nav>
+                                }
+                            </NavDropdown.Item>
+                        </NavDropdown>
                     </div>
                 </Row>
             </Container>
         </Row>
     );
-    function toggleProfile() {
-        var profileBox = document.getElementById("profileBox");
-        profileBox.style.display = (profileBox.style.display === "none") ? "block" : "none";
-      }
 };
 export default HeaderApp;

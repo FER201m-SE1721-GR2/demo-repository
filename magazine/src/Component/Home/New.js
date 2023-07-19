@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faNewspaper, faCalendarDays } from '@fortawesome/free-solid-svg-icons';
-import { Card, Col, Container, Image, Pagination, Row } from 'react-bootstrap';
+import { Card, Col, Container, Row } from 'react-bootstrap';
 import { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 
@@ -49,7 +49,7 @@ const New = () => {
             <section className='news'>
                 <Container>
                     <div className="heading">
-                        <h6>New &nbsp; <FontAwesomeIcon icon={faNewspaper} style={{ color: "#ededed", }} /></h6>
+                        <h6 style={{fontWeight:'boldẻr'}}>Mới &nbsp; <FontAwesomeIcon icon={faNewspaper} style={{ color: "#ededed", }} /></h6>
                     </div>
                     {
                         records.map(n => {
@@ -72,7 +72,7 @@ const New = () => {
                                                 </Col>
                                                 <Col xs={9} md={9} lg={9}>
                                                     <Row>
-                                                        <h6 className='news-logo'>New</h6>
+                                                        <h6 className='news-logo' style={{fontWeight:'boldẻr'}}>Mới</h6>
                                                     </Row>
                                                     <Row>
                                                         <Link to={'/post/detail/' + n.id} style={{ color: 'inherit' }}><h4>{title}</h4></Link>

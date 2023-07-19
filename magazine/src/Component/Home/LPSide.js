@@ -33,21 +33,6 @@ const Community = () => {
                     <span>&nbsp; 2,700 Subscriber</span>
                 </div>
             </section>
-
-            <div className="second-community">
-                <div className="heading">
-                    <h6>Subscribe &nbsp; <FontAwesomeIcon icon={faRightToBracket} style={{color: "#2b3f73",}} /></h6>
-                </div>
-            </div>
-            <section className='subscribe'>
-                <h1 className='title'>Subscribe to our New Stories</h1>
-                <form action=''>
-                    <input type='email' placeholder='Email Address...' />
-                    <button>
-                        <i className='fa fa-paper-plane'></i> SUBMIT
-                    </button>
-                </form>
-            </section>
         </>
     );
 }
